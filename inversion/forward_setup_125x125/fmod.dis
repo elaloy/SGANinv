@@ -1,0 +1,8 @@
+# DIS file Units: s, m
+ 1 125 125 1 1 2       Item 1: NLAY NROW NCOL NPER ITMUNI LENUNI
+ 0                   Item 2: LAYCBD
+constant    1.0      Item 3: DELR
+constant    1.0      Item 4: DELC
+constant    1.0      Item 5: Top
+constant    0.0      Item 6: BOTM, layer 1
+ 0.0   1  1.0  SS    Item 7: PERLEN NSTP TSMULT SS/TR, period 1

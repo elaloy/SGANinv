@@ -1,0 +1,15 @@
+# Output Files
+LIST   11 fmod1.lst
+DATA    21 fmod1.hed
+DATA    13 fmod1.sim
+# Global input files
+DIS   31 fmod1.dis
+MULT   41 fmod1.mlt
+LPF   51 fmod1.lpf
+# Flow process input files
+BAS6   61 fmod1.ba6
+WEL   71 fmod1.wel
+PCG   81 fmod1.pcg
+OC    91 fmod1.oc
+# Observations
+HOB   12 fmod1.hob

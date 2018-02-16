@@ -1,0 +1,13 @@
+# NAME file 
+list    12  fmod.lst
+# Global input files
+dis     21  fmod.dis
+# Flow process input files
+bas6    31  fmod.basmf
+oc      32  fmod.oc
+lpf     33  fmod.lpf
+pcg     39  fmod.pcg
+wel     46  fmod.wel
+mult    20 fmod.mlt
+# Output Files
+DATA    52 fmod.hed
