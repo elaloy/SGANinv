@@ -264,7 +264,7 @@ class Sampler:
         del Zinit
 
         # Run forward model, if any this is done in parallel
-        if  self.ImCaseStudy > 1:
+        if  self.CaseStudy > 1:
             if self.MCMCPar.lik_sigma_est==False:
                 fx0, Extra.dcp = RunFoward(X,self.MCMCPar,self.Measurement,self.ModelName,self.Extra,DNN=self.DNN)
             else:
@@ -397,7 +397,7 @@ class Sampler:
                 xnew,self.MCMCVar.CR[:,gen_number] ,alfa_s = DreamzsProp(xold,Zoff,self.MCMCVar.CR[:,gen_number],self.MCMCPar,Update)
     
                 # Get simulated data (done in parallel)
-                if  self.ImCaseStudy > 1:
+                if  self.CaseStudy > 1:
                     if self.MCMCPar.lik_sigma_est==False:
                         fx_new, Extra.dcp = RunFoward(xnew,self.MCMCPar,self.Measurement,self.ModelName,self.Extra,DNN=self.DNN)
                     else:
