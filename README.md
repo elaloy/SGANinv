@@ -3,9 +3,8 @@
 This Python 2.7 package contains the (1)spatial generative adversarial network (SGAN) and (2) DREAM<sub>(ZS)</sub> Markov chain Monte Carlo (MCMC) sampler
 used for multiple-point statistics simulation and inversion by [Laloy et al. (2018)](https://doi.org/10.1002/2017WR022148)
 
-``` diff
-- **Now with a Pytorch 1.1.0 / Python 3.6 GAN-based MCMC inversion example**
-``` diff
+**Now with a Pytorch 1.1.0 / Python 3.6 GAN-based MCMC inversion example**
+
 
 ## Large data files
 
