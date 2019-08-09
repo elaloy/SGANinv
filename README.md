@@ -28,7 +28,7 @@ Water Resources Research, 54. https://doi.org/10.1002/2017WR022148
 
 ## License
 
-The Theano/Lasagne and pytorch codes for the SGAN are under MIT license while the MCMC inversion code is under GPL license. See the corresponding folders for details.
+The Theano/Lasagne and Pytorch codes for the SGAN are under MIT license while the MCMC inversion code is under GPL license. See the corresponding folders for details.
 
 ## Contact
 
