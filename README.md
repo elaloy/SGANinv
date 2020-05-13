@@ -7,7 +7,7 @@ used for multiple-point statistics simulation and inversion by [Laloy et al. (20
 
 **- a Pytorch 1.1.0 / Python 3.6 GAN-based MCMC inversion example for the 2D binary channelized aquifer case**
 
-**- a Pytorch 1.1.0 / Python 3.6 version of the 2D braided river case**
+**- a Pytorch 1.1.0 / Python 3.6 version of the 2D braided river case (with Wasserstein GAN training)**
 
 ## Large data files
 
