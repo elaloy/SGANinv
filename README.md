@@ -1,6 +1,6 @@
 # Using a GAN-based low-dimensional parameterization to solve inverse problems with complex geologic prior information
 
-This Python 2.7 package contains the (1)spatial generative adversarial network (SGAN) and (2) DREAM<sub>(ZS)</sub> Markov chain Monte Carlo (MCMC) sampler
+This Python 2.7 package contains the (1) spatial generative adversarial network (SGAN) and (2) DREAM<sub>(ZS)</sub> Markov chain Monte Carlo (MCMC) sampler
 used for multiple-point statistics simulation and inversion by [Laloy et al. (2018)](https://doi.org/10.1002/2017WR022148)
 
 **Now with:**
