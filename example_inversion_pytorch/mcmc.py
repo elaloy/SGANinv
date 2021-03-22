@@ -113,7 +113,7 @@ class Sampler:
             DNN.filtering=False
             DNN.cuda=True
             
-            DNN.gpath=Extra.main_dir+'/netG.pth'
+            DNN.gpath=Extra.main_dir+'/generation/netG.pth'
 
             from generator import Generator as Generator
             
