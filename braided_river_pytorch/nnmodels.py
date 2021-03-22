@@ -11,7 +11,7 @@ import torch.nn.parallel
 
 class D(nn.Module):
     def __init__(self, nc = 1, ndf = 64, dfs = 5, ngpu = 1):
-        super(Dw, self).__init__()
+        super(D, self).__init__()
         self.ngpu = ngpu
 
         main = nn.Sequential(
